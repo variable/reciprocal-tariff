@@ -1,6 +1,9 @@
 # 👊 TARIFF 🔥
 
+
 The GREATEST, most TREMENDOUS Python package that makes importing great again!
+
+![MIGA](https://i.imgur.com/2OoRBu6.png)
 
 ## About
 
