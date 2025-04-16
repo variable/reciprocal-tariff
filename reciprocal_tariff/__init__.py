@@ -32,7 +32,7 @@ def _get_trump_phrase():
     """Get a random Trump-like phrase."""
     return random.choice(_trump_phrases)
 
-def set(tariff_sheet):
+def tariff_set(tariff_sheet):
     """
     Set tariff rates for packages.
     
@@ -74,4 +74,8 @@ def _tariffed_import(name, globals=None, locals=None, fromlist=(), level=0):
         print(f"JUST IMPOSED a {tariff_rate}% TARIFF on {base_package}! Original import took {int(original_import_time)} us, "
               f"now takes {int(new_total_time)} us. {_get_trump_phrase()}")
     
-    return module 
+    return module
+
+tariff_set({
+    "tariff": 100,     # 50% tariff on tariff
+})

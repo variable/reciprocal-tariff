@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="tariff",
+    name="reciprocal-tariff",
     version="1.0.0",
-    author="Python Economist",
-    author_email="huan.xu71@gmail.com",
-    description="Make importing great again! A parody package that imposes tariffs on Python imports.",
+    author="Python Anti-Economist",
+    author_email="james@lin.net.nz",
+    description="Make importing shit again! A parody package that imposes tariffs on tariff imports.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/hxu296/tariff",
+    url="https://github.com/variable/reciprocal-tariff",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
